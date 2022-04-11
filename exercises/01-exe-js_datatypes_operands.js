@@ -16,21 +16,21 @@
 let city = "miami";
 console.log(city[0]); // <== m
 city[0] = "M"; // let's capitalize the first letter
-console.log(city); // ==> ??
+console.log(city); // ==> miami
 
 city = "berlin";
 console.log(city); // <== berlin
 
 city[0] = "B";
-console.log(city); // ==> ??
+console.log(city); // ==> berlin
 
 const message = "Don't be sad, be happy!";
 console.log(message.slice(0,3, "don"));
-console.log(message); // ==> ??
+console.log(message); // ==> "Don't be sad, be happy!"
 
 const statement = 'I love JavaScript!';
 const subStatement = statement.substr(2, 9);
 console.log(statement);
 
 statement[0].toLowerCase();
-console.log(statement); // ==> ??
+console.log(statement); // ==> I love JavaScript!
